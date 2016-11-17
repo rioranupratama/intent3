@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap bitmap = data.getParcelableExtra("data");
             ImageView iv = (ImageView) findViewById(R.id.imageViewCamera);
             iv.setImageBitmap(bitmap);
+
         }
     }
 
